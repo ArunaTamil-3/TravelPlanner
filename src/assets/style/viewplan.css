@@ -1,0 +1,30 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .mainview{
+    margin-top: 25px;
+    padding: 25px;
+  }
+  .ml-20{
+    margin-left: 20px;
+  }
+
+  /* mobile responsive */
+  @media (max-width: 768px) {
+    .mainview{
+        overflow-x: scroll;
+    }
+  }

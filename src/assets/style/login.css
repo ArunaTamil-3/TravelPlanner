@@ -1,0 +1,26 @@
+.bg-login{
+    background-color:white;
+    /* height:500px; */
+    margin-top:30px;
+    margin-bottom:30px;
+    /* box-shadow: 0 0.5px 10px #00000045 !important; */
+}
+.loginn-bg {
+    background: url(../images/bg-login.jpg) no-repeat center center;
+    background-size: 100%;
+    opacity: 9999;
+ 
+}
+.btnn {
+    width: 100px;
+    height: 40px;
+    background: #02205f;
+    border: 2px solid #02205f;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
